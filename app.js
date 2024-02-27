@@ -164,11 +164,21 @@ app.get('/', (req, res) => {
 })
 
 app.get('/products/:id', (req, res) => {
-  res.send("Product ID: " + req.params.id);
+  const id = req.params.id;
+  const product = products.find(product => product.id === id);
+  res.json(product);
 })
 
 app.get('/products', (req, res) => {
   res.json(products);
+})
+
+app.post("/checkout", (req, res) => {
+  const cart = req.body;
+  res.json({
+    message: "Order placed successfully!",
+    order: cart
+  });
 })
 
 app.listen(PORT, () => {
