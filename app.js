@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors'); // Importa el middleware cors
 const app = express()
+const {products} = require('./products');
 const PORT = 8000
 
 
@@ -20,7 +21,7 @@ app.get('/products/:id', (req, res) => {
 })
 
 app.get('/products', (req, res) => {
-  res.json({products: []});
+  res.json(products);
 })
 
 app.listen(PORT, () => {
