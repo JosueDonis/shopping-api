@@ -160,7 +160,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello World')
+  res.send('Shopping api is running! 🛍️')
 })
 
 app.get('/products/:id', (req, res) => {
