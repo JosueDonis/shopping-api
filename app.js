@@ -100,7 +100,7 @@ const products = [
     "price": 130.00,
     "description": "Inspirados en el running, los Adidas NMD R1 combinan estilo urbano con tecnología de rendimiento para una comodidad excepcional.",
     "category": "Casual",
-    "image": "https://ejemplo.com/imagen12.jpg"
+    "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2017%2F06%2Fadidas-nmd-r1-gum-pack-on-foot-0.jpg?w=960&cbr=1&q=90&fit=max"
   },
   {
     "id": uuidv4(),
@@ -108,7 +108,7 @@ const products = [
     "price": 79.99,
     "description": "Con un estilo retro y una comodidad moderna, los Puma Future Rider son perfectos para el uso diario.",
     "category": "Casual",
-    "image": "https://ejemplo.com/imagen13.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcIVgQMepppUqjaOJm02dMl_Z_Xd0cV_oFAg&usqp=CAU"
   },
   {
     "id": uuidv4(),
@@ -116,7 +116,7 @@ const products = [
     "price": 140.00,
     "description": "Diseñados para el trail running, los Salomon Speedcross 5 ofrecen tracción y protección en terrenos difíciles.",
     "category": "Trail Running",
-    "image": "https://ejemplo.com/imagen14.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkHp255o4WuY8s0m710yEPO0SqeowhkOhcTg&usqp=CAU"
   },
   {
     "id": uuidv4(),
