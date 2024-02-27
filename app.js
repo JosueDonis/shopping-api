@@ -1,6 +1,7 @@
 const express = require('express');
-const products = require('./products');
-
+const {products} = require('./products');
+const bodyParser = require('body-parser');
+const cors = require('cors'); // Importa el middleware cors
 const app = express()
 const PORT = 8000
 
