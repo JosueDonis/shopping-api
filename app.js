@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.send('Hello World')
 })
 
+app.get('/products/:id', (req, res) => {
+  res.send("Product ID: " + req.params.id);
+})
+
 app.get('/products', (req, res) => {
   res.json(products);
 })
