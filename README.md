@@ -1,4 +1,4 @@
-# shopping api 🛍️
+# Shopping api 🛍️
 This project was carried out for a test, it was developed using the NodeJS, and it also includes the following:
 1. NodeJS
 2. ExpressJS
